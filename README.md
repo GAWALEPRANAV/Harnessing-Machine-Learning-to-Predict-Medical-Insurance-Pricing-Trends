@@ -103,6 +103,7 @@ This project aims to predict medical insurance costs based on various demographi
 Users can test the model by entering sample values. For instance:
 
     Input:
+      
       Age: 19
       BMI: 27.9
       Children: 0
@@ -118,24 +119,24 @@ The XGBoost model outperformed other models, achieving the lowest MAE and highes
 # Future Work
 To further enhance this project:
 
- Add More Features: Additional features, such as lifestyle habits, medical history, and physical activity level, could improve model accuracy.
- 
- Further Tuning: Additional tuning of XGBoost hyperparameters could yield marginal gains in predictive power.
-
- Optimize Deployment: Using more advanced deployment methods like cloud hosting could scale the model for broader use.
+    Add More Features: Additional features, such as lifestyle habits, medical history, and physical activity level, could improve model accuracy.
+    
+    Further Tuning: Additional tuning of XGBoost hyperparameters could yield marginal gains in predictive power.
+   
+    Optimize Deployment: Using more advanced deployment methods like cloud hosting could scale the model for broader use.
 
 # Ethical Considerations
 This model uses demographic and health data to predict insurance costs. Although educational, the model highlights sensitive issues, such as premium bias based on age or smoking status. Real-world implementations should take these ethical considerations into account and use data responsibly.
 
 # Glossary of Terms
 
-BMI (Body Mass Index): A measure of body fat calculated as weight (kg) / height^2 (m).
-
-XGBoost: A gradient boosting library optimized for predictive accuracy and speed, widely used in machine learning competitions.
-
-Mean Absolute Error (MAE): A measure of prediction error, where lower values indicate better accuracy.
-
-R-squared: A statistical measure indicating how well data points fit a regression line, with values closer to 1 showing a better fit.
+      BMI (Body Mass Index): A measure of body fat calculated as weight (kg) / height^2 (m).
+      
+      XGBoost: A gradient boosting library optimized for predictive accuracy and speed, widely used in machine learning competitions.
+      
+      Mean Absolute Error (MAE): A measure of prediction error, where lower values indicate better accuracy.
+      
+      R-squared: A statistical measure indicating how well data points fit a regression line, with values closer to 1 showing a better fit.
 
 # Contributing
 Contributions are welcome! Please submit a pull request or open an issue if you have suggestions or improvements.
